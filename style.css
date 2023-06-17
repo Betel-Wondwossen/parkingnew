@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Popping';
+}
+ body{
+    background:hsl(308, 48%, 18%);
+ }
+
+ h1{
+    background: (19, 19, 54);
+    color: #8b067c;
+    text-align: center;
+   
+ }
+ h3{
+    color: #8b067c;
+ }
+ .container{
+    background: rgb(19, 19, 55);
+    
+ }
+ button{
+   
+    margin-bottom: 10px;
+ }
+ 
+  .btn{
+    background: #956229;
+    text-transform: uppercase;
+    color: #050801;
+    box-shadow: 0 0 5px #956229,
+    0 0 25px #956229,
+    0 0 50px #956229,
+    0 0 200px #956229
+    
+  }
+  .btn:hover{
+    color: #edecec;
+    background-color: #573d54;
+    text-transform: uppercase;
+   transition:  0.5s;
+  
+
+   
+  }
+  .form-label{
+    color: #e84cd6;
+    border-radius: 100%;
+
+  }
+  
+
+  .form-control:hover{
+    box-shadow: 0 0 5px #573d54,
+    0 0 20px #573d54,
+    0 0 25px #573d54,
+    0 0 50px #573d54
+  }
+  th{
+    color: #e84cd6;
+  }
+  tbody{
+    color: #ca806f;
+  }
+  table{
+    
+    box-shadow: 0 0 5px #573d54,
+    0 0 20px #573d54,
+    0 0 25px #573d54,
+    0 0 50px #573d54
+  }
+   
+
+ 
+ 
+ 
+.footer .box a{
+    display: block;
+    font-size: 20px;
+    color: #ca806f;
+    padding: 5px 0;
+}
+.footer .box a i{
+    padding-right: 1%;
+    margin-left: 50px;
+    color: var(--black);
+}
+.footer   .box a:hover i{
+    padding-right: 2rem;
+     
+}
+
+ 
+
+.footer .credit{
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    color: black;
+    text-align: center;
+    background-color: #9a0e8a;
+    box-shadow: 0 0 5px #573d54,
+    0 0 20px #573d54,
+    0 0 25px #573d54,
+    0 0 50px #573d54
+    
+    
+}
